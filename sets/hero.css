@@ -1,0 +1,83 @@
+#hero {
+    height: 100vh;
+    background-image: url(../image/bg.jpg);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: var(--color-red);
+}
+
+#hero .container .leftDiv {
+    height: 400px;
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+}
+
+#hero .container .rightDiv {
+    width: 38%;
+}
+
+.leftDiv .welcome {
+    font-family: var(--font-russo);
+    font-size: 2rem;
+    
+}
+
+.leftDiv .org_name {
+    font-family: var(--font-russo);
+    font-size: 7rem;
+    margin-top: 0px;
+}
+
+.leftDiv .org_subname {
+    font-family: var(--font-itim);
+    font-size: 3rem;
+    margin-top: 0px;
+}
+
+
+.leftDiv .content {
+    font-family: var(--font-itim);
+    margin-top: 5rem;
+    font-size: 1.2rem;
+}
+
+.leftDiv .buttons {
+    margin-top: 5rem;
+}
+
+.leftDiv .buttons #join_btn {
+    border: var(--border-blue);
+    padding: 1rem 5rem;
+    border-radius: 100px;
+    color: var(--color-yellow);
+    font-family: var(--font-itim);
+    font-size: 1.5rem;
+    margin-right: 3rem;
+}
+
+.leftDiv .buttons #join_btn:hover {
+    background-color: var(--color-red);
+    color: var(--color-black);
+}
+
+.leftDiv .buttons #contact_btn {
+    border: var(--border-yellow);
+    padding: 1rem 5rem;
+    border-radius: 100px;
+    color: var(--color-yellow);
+    font-family: var(--font-itim);
+    font-size: 1.5rem;
+}
+
+.leftDiv .buttons #contact_btn:hover {
+    background-color: var(--color-yellow);
+    color: var(--color-black);
+}
+

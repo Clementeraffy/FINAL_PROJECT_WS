@@ -1,0 +1,32 @@
+@import url("styles.css");
+
+#about {
+    height: 100%;
+    background-image: url(../image/whitebackground.jpg);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#about .container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding: 3rem 0;
+}
+
+#about .container .title {
+    color: var(--color-dark-blue);
+    font-family: var(--font-russo);
+    font-size: 4rem;
+    margin: 4rem 0 0 0;
+}
+
+#about .container .about_content {
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+}
